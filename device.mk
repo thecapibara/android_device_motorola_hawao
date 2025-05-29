@@ -68,3 +68,6 @@ PRODUCT_COPY_FILES += \
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/motorola/hawao/hawao-vendor.mk)
+
+TARGET_BOARD_PLATFORM := qcom
+
