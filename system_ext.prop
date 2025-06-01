@@ -1,2 +1,9 @@
 # Display
 sys.brightness.disable_gamma_conversion=true
+
+#InfinityX device info
+ro.product.marketname=Moto G42
+ro.infinity.soc=Snapdragon 680
+ro.infinity.battery=5000 mAh
+ro.infinity.display=1080 x 2400, 60 Hz
+ro.infinity.camera=50MP + 8MP + 2MP
