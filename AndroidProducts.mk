@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/infinity_hawao.mk
+    $(LOCAL_DIR)/voltage_hawao.mk
