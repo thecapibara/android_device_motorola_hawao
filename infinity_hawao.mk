@@ -15,7 +15,7 @@ $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 INFINITY_BUILD_TYPE := UNOFFICIAL
 INFINITY_MAINTAINER := "JustGL"
-TARGET_SUPPORTS_BLUR := false
+TARGET_SUPPORTS_BLUR := true
 WITH_GAPPS := true
 TARGET_SHIPS_FULL_GAPPS := false
 TARGET_SHIPS_GOOGLE_DIALER := false
