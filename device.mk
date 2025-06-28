@@ -68,3 +68,9 @@ PRODUCT_COPY_FILES += \
 
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/motorola/hawao/hawao-vendor.mk)
+
+#MotoCamera 4
+TARGET_MOTCAMERA4 := hawao
+TARGET_USES_MOTCAMERA4 := true
+
+$(call inherit-product, vendor/motorola/MotCamera4-bengal/motcamera4.mk)
