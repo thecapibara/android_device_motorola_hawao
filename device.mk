@@ -70,7 +70,7 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, vendor/motorola/hawao/hawao-vendor.mk)
 
 #MotoCamera 4
-TARGET_MOTCAMERA4 := devon
+TARGET_MOTCAMERA4 := hawao
 TARGET_USES_MOTCAMERA4 := true
 
 $(call inherit-product, vendor/motorola/MotCamera4-bengal/motcamera4.mk)
