@@ -134,7 +134,11 @@ vendor/lib64/libjpege.so
 vendor/lib64/liblmutils-ns.so
 vendor/lib64/libmctfengine_stub.so
 vendor/lib64/libmmcamera_cac3.so
+vendor/lib64/libmmcamera_faceproc2.so
+vendor/lib64/libmmcamera_faceproc.so
+vendor/lib64/libmmcamera_lscv35.so
 vendor/lib64/libmmcamera_mfnr.so
+vendor/lib64/libmmcamera_mfnr_t4.so
 vendor/lib64/libmot_afd.so
 vendor/lib64/libmot_lux_standardization.so
 vendor/lib64/libmpbase.so
@@ -189,6 +193,9 @@ vendor/etc/sec_s3nrn4v_swreg.bin
 
 # NFC firmware (Samsung)
 vendor/firmware/sec_s3nrn4v_firmware.bin
+
+# OEM
+vendor/etc/vhw.xml
 
 # SAR firmware
 vendor/firmware/aw9610x_0.bin
@@ -254,3 +261,6 @@ vendor/firmware/focaltech-edosd-ft3519-72-0000-hawao.bin
 vendor/firmware/focaltech-edovtdr-ft3519-63-0000-hawao.bin
 vendor/firmware/focaltech-visionox-ft3519-88-0000-hawao.bin
 vendor/firmware/focaltech-visionoxrm-ft3519-93-0000-hawao.bin
+
+# WiFi
+vendor/bin/cnss-daemon
